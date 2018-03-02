@@ -9,6 +9,7 @@ import java.sql.*;
 import java.io.*;
 class java_rapido_neri extends jFrame implements ActionListener, ItemListener, javax_swing
 {
+    //start class
     configuracoes obj_conf = new configuracoes();
     JLabel lb_titulo, lb_qual_banco, lb_nomebanco, lb_usuario, lb_senha,lb_tabelas, lb_driver, lb_formato_tela;
     JLabel lb_rodape, lb_tit_tabelas, lb_tit_gera, lb_cor_botoes, lb_tit_labels, lb_labels;
