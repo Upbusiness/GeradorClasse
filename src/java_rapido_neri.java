@@ -1204,7 +1204,7 @@ INFORMATICON ou o próprio professor Neri, se outro vender, denuncie*/
              else if (cb_tipobanco.getSelectedItem().equals("MySQL"))
              {
                  tf_driver.setText("org.gjt.mm.mysql.Driver");
-                 tf_banco.setText("jdbc:mysql://localhost/estoque");
+                 tf_banco.setText("jdbc:mysql://localhost/geraClasse");
              }
              else if (cb_tipobanco.getSelectedItem().equals("PostgreSQL"))
              {
